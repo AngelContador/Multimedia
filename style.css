@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+ul{
+  text-align: right;
+  word-spacing: 25px;
+  margin-right: 20px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+
+}
 
 :root {
   --color: #3c3163;
@@ -188,8 +198,8 @@ video{
     justify-content: center;
   }
   .card-grid-space .num {
-    /margin-left: 0;
-    /text-align: center;
+  margin-left: 0;
+  text-align: center;
   }
 }
 
